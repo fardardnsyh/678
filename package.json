@@ -1,0 +1,20 @@
+{
+  "name": "thembi-dibotelo",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@netlify/plugin-sitemap": "^0.8.1",
+    "@parcel/packager-xml": "^2.10.3",
+    "@parcel/transformer-xml": "^2.10.3",
+    "parcel": "^2.10.3",
+    "parcel-bundler": "^1.12.5"
+  },
+  "description": "<img width=\"896\" alt=\"design2\" src=\"https://github.com/GovanDBT/Thembi-Dibotelo/assets/62579660/7fe55b84-a983-4863-8c40-30d1aa461abf\">",
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

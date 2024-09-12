@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Projects by Thembi Dibotelo.">
+    <meta name="keywords" content="Thembi, Dibotelo, Portfolio, Web Designer, Website developer, Freelancer, Freelance developer, Botswana, Gaborone, portfolios, projects">
+    <meta name="author" content="Thembi Dibotelo">
+    <!--Meta social media cards-->
+    <meta property="og:site_name" content="Thembi Dibotelo">
+    <meta property="og:title" content="Thembi Dibotelo's projects">
+    <meta property="og:description"
+        content="Projects by Thembi Dibotelo">
+    <meta property="og:type" content="Website">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/62579660?s=400&u=f8692e9ab6ccb920e8a7b4d63a56cceb27a89a96&v=4">
+    <meta property="og:image:width" content="256">
+    <meta property="og:image:height" content="256">
+    <meta property="og:url" content="https://thembi-dibotelo.netlify.app">
+    <!--Twitter social media cards-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Thembi Dibotelo">
+    <meta name="twitter:description" content="Projects by Thembi Dibotelo">
+    <meta name="twitter:site" content="@GovanMade">
+    <meta name="twitter:image"
+        content="https://github.com/GovanDBT/GovanDBT/assets/62579660/9b29e362-8851-4932-9dc3-7e02462f71a6">
+    <meta name="twitter:creator" content="@GovanMade">
+    <title>Portfolios - my projects</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.svg">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Poppins:wght@300;400;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6f879d6c21.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Hero section + Navigation bar-->
+    <header>
+        <div>
+            <nav class="nav collapsible container">
+                <a href="../index.html"><img src="../images/Logo.svg" alt="TD Logo"></a>
+                <i class="fa-solid fa-bars-staggered nav-toggler"></i>
+                <div class="nav-list-container">
+                    <ul class="list nav-list collapsible-content">
+                        <li><a href="../index.html">about</a></li>
+                        <li><a href="resume.html">resume</a></li>
+                        <li><a href="portfolio.html" class="highlighter">portfolio</a></li>
+                        <li><a href="https://thembidev.hashnode.dev/" target="_blank">blog</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </div>
+                <a href="https://github.com/GovanDBT" target="_blank"
+                    class="btn btn-accent btn-nav collapsible-content">
+                    <i class="fa-brands fa-github btn-icon"></i>
+                    GitHub
+                </a>
+            </nav>
+        </div>
+    </header>
+    <!--Portfolio buttons-->
+    <div class="filter-buttons container">
+        <button class="filter" onclick="filterObjects('all')">All</button>
+        <button class="filter" onclick="filterObjects('websites')">Websites</button>
+        <button class="filter" onclick="filterObjects('apps')">Apps</button>
+        <button class="filter" onclick="filterObjects('mockups')">Mockups</button>
+        <button class="filter" onclick="filterObjects('logos')">Logos</button>
+    </div>
+    <div class="instagram-callout block-accent container">
+        <h2>Check my Instagram to view my latest design concepts, and collaborations</h2>
+        <div>
+            <a href="https://www.instagram.com/thembi.dev/" target="_blank" class="btn btn-primary btn-resume insta-btn">
+                <i class="fa-brands fa-instagram insta-btn-icon"></i>
+                Thembi.Dev
+            </a>
+
+        </div>
+    </div>
+    <!-- Portfolio projects-->
+    <section class="projects container">
+        <!--BHC-->
+        <div class="card apps">
+            <div class="ribbon"><span class="ribbon__content">latest project</span></div>
+            <div class="card-img">
+                <picture>
+                    <source type="image/webp" srcset="../images/BHC.webp">
+                    <source type="image/jpg" srcset="../images/BHC.jpg">
+                    <img class="project-img" src="../images/BHC.jpg" alt="BHC hackathon app">
+                </picture>
+            </div>
+            <div class="card-body">
+                <div class="card-header">
+                    <span class="badge badge-primary">App</span>
+                </div>
+                <p><span class="project-name">BHC</span> - BHC 2024 hackathon competitions for a custom app</p>
+            </div>
+            <div class="card-links">
+                <a href="https://github.com/GovanDBT/BHC-App" target="_blank" class="btn btn-accent btn-card">GitHub</a>
+            </div>
+        </div>
+        <!--Plug-->
+        <div class="card mockups">
+            <div class="card-img">
+                <picture>
+                    <source type="image/webp" srcset="../images/plug.webp">
+                    <source type="image/jpg" srcset="../images/plug.jpg">
+                    <img class="project-img" src="../images/plug.jpg" alt="Plug uber app">
+                </picture>
+            </div>
+            <div class="card-body">
+                <div class="card-header">
+                    <span class="badge badge-primary">Mockup</span>
+                </div>
+                <p><span class="project-name">Plug</span> - A mockup design for a cab app in South Africa for door to door bookings</p>
+            </div>
+        </div>
+        <!--Molapo-->
+        <div class="card websites">
+            <div class="card-img">
+                <picture>
+                    <source type="image/webp" srcset="../images/molapo.webp">
+                    <source type="image/jpg" srcset="../images/molapo.jpg">
+                    <img class="project-img" src="../images/molapo.jpg"
+                        alt="Molapo Crossing Website">
+                </picture>
+            </div>
+            <div class="card-body">
+                <div class="card-header">
+                    <span class="badge badge-primary">Website</span>
+                </div>
+                <p><span class="project-name">Molapo Crossing Mall</span> - Website for Molapo Crossing Mall</p>
+            </div>
+            <div class="card-links">
+                <a href="https://www.molapocrossingmall.co.bw/" target="_blank" class="btn btn-accent btn-card">Website</a>
+            </div>
+        </div>
+        <!--BPS-->
+        <div class="card mockups">
+            <div class="card-img" data-modal-target="#modal6">
+                <picture>
+                    <source type="image/webp"
+                        srcset="../images/designs/BPS/BPS_440.webp 768w, ../images/designs/BPS/BPS_1430.webp 1400w"
+                        sizes="(min-width: 300px) 100vw">
+                    <source type="image/png"
+                        srcset="../images/designs/BPS/BPS_440.png 768w, ../images/designs/BPS/BPS_1430.png 1400w"
+                        sizes="(min-width: 300px) 100vw">
+                    <img class="project-img" src="../images/designs/BPS/BPS-index.png"
+                        alt="Mockup portfolio design Botswana Police Service">
+                </picture>
+            </div>
+            <div class="card-body">
+                <div class="card-header">
+                    <span class="badge badge-primary">Mockup</span>
+                </div>
+                <p><span class="project-name">Botswana Police Service</span> - Web Design concept for Botswana Police Service</p>
+            </div>
+        
+        </div>
+        <div class="modal" id="modal6">
+            <div class="modal-header">
+                <h3>Botswana Police Service</h3>
+                <button data-close-btn class="close-btn">&times;</button>
+            </div>
+            <picture>
+                <img class="project-img" src="../images/designs/BPS/BPS-index.png"
+                    alt="Mockup portfolio design for Botswana Police Service">
+            </picture>
+        </div>
+        <!--Main Deck-->
+        <div class="card mockups">
+            <div class="card-img" data-modal-target="#modal5">
+                <picture>
+                    <source type="image/webp"
+                        srcset="../images/designs/MainDeck/MainDeck_440.webp 768w, ../images/designs/MainDeck/MainDeck_1430.webp 1400w"
+                        sizes="(min-width: 300px) 100vw">
+                    <source type="image/png"
+                        srcset="../images/designs/MainDeck/MainDeck_440.png 768w, ../images/designs/MainDeck/MainDeck_1430.png 1400w"
+                        sizes="(min-width: 300px) 100vw">
+                    <img class="project-img" src="../images/designs/MainDeck/MainDeck.png"
+                        alt="Mockup portfolio design for bar restaurant">
+                </picture>
+            </div>
+            <div class="card-body">
+                <div class="card-header">
+                    <span class="badge badge-primary">Mockup</span>
+                </div>
+                <p><span class="project-name">Main Deck</span> - Web Design concept for my Bar restaurant in Gaborone</p>
+            </div>
+        
+        </div>
+        <div class="modal" id="modal5">
+            <div class="modal-header">
+                <h3>Main Deck</h3>
+                <button data-close-btn class="close-btn">&times;</button>
+            </div>
+            <picture>
+                <img class="project-img" src="../images/designs/MainDeck/MainDeck-index.png"
+                    alt="Mockup portfolio design for bar restaurant">
+            </picture>
+        </div>
+        <!--Jacks Gym-->
+        <div class="card mockups">
+            <div class="card-img" data-modal-target="#modal4">
+                <picture>
+                    <source type="image/webp"
+                        srcset="../images/designs/JacksGym/JacksGym_440.webp 768w, ../images/designs/JacksGym/JacksGym_1430.webp 1400w"
+                        sizes="(min-width: 300px) 100vw">
+                    <source type="image/png"
+                        srcset="../images/designs/JacksGym/JacksGym_440.png 768w, ../images/designs/JacksGym/JacksGym_1430.png 1400w"
+                        sizes="(min-width: 300px) 100vw">
+                    <img class="project-img" src="../images/designs/JacksGym/JacksGym.png"
+                        alt="Mockup portfolio design for local Gym">
+                </picture>
+            </div>
+            <div class="card-body">
+                <div class="card-header">
+                    <span class="badge badge-primary">Mockup</span>
+                </div>
+                <p><span class="project-name">Jacks Gym</span> - Web Design concept for a local gym in Gaborone</p>
+            </div>
+        
+        </div>
+        <div class="modal" id="modal4">
+            <div class="modal-header">
+                <h3>Jacks Gym</h3>
+                <button data-close-btn class="close-btn">&times;</button>
+            </div>
+            <picture>
+                <img class="project-img" src="../images/designs/JacksGym/JacksGym-index.png"
+                    alt="Mockup portfolio design for a local gym in Gaborone">
+            </picture>
+        </div>
+        <!--Thembi-->
+        <div class="card websites mockups">
+            <div class="ribbon"><span class="ribbon__content">Portfolio</span></div>
+            <div class="card-img" data-modal-target="#modal">
+                <picture>
+                    <source type="image/webp" srcset="../images/designs/thembi/design2_w_933.webp 768w, ../images/designs/thembi/design2_w_1400.webp 1400w"
+                        sizes="(min-width: 300px) 100vw">
+                    <source type="image/png" srcset="../images/designs/thembi/design2_w_933.png 768w, ../images/designs/thembi/design2_w_1400.png 1400w"
+                        sizes="(min-width: 300px) 100vw">
+                    <img class="project-img" src="../images/designs/thembi/design2.png" alt="Mockup portfolio design for a freelance developer">
+                </picture>
+            </div>
+            <div class="card-body">
+                <div class="card-header">
+                    <span class="badge badge-primary">Website</span>
+                    <span class="badge badge-primary">Mockup</span>
+                </div>
+                <p><span class="project-name">Thembi Dibotelo</span> - Private portfolio for a freelance developer</p>
+                <div class="card-links">
+                    <a href="../index.html" class="btn btn-accent btn-card">Website</a>
+                    <a href="https://github.com/GovanDBT/Thembi-Dibotelo" target="_blank" class="btn btn-accent btn-card">GitHub</a>
+                </div>
+            </div>
+           
+        </div>
+        <div class="modal" id="modal">
+            <div class="modal-header">
+                <h3>Thembi Dibotelo Website</h3>
+                <button data-close-btn class="close-btn">&times;</button>
+            </div>
+            <picture>
+                <source type="image/webp"
+                    srcset="../images/designs/thembi/thembi-index_1400.webp">
+                <source type="image/png"
+                    srcset="../images/designs/thembi/thembi-index_1400.png">
+                <img class="project-img" src="../images/designs/thembi/thembi-index.png"
+                    alt="Mockup portfolio design for a freelance developer">
+            </picture>
+        </div>
+        <!--Moshified-->
+        <div class="card websites mockups">
+            <div class="card-img" data-modal-target="#modal2">
+                <picture>
+                    <source type="image/webp"
+                        srcset="../images/designs/moshified/design1_w_593.webp 593w, ../images/designs/moshified/design1_w_867.webp 867w"
+                        sizes="(min-width: 300px) 100vw">
+                    <source type="image/png"
+                        srcset="../images/designs/moshified/design1_w_593.png 593w, ../images/designs/moshified/design1_w_867.png 867w"
+                        sizes="(min-width: 300px) 100vw">
+                    <img class="project-img" src="../images/designs/moshified/design1.png"
+                        alt="Mockup design for a cloud hosting company">
+                </picture>
+            </div>
+            <div class="card-body">
+                <div class="card-header">
+                    <span class="badge badge-primary">Website</span>
+                    <span class="badge badge-primary">Mockup</span>
+                </div>
+                <p><span class="project-name">Moshified</span> - A website for a makeup cloud hosting company</p>
+                <div class="card-links">
+                    <a href="https://moshifies.netlify.app/" target="_blank" class="btn btn-accent btn-card">Website</a>
+                    <a href="https://github.com/GovanDBT/Moshify" target="_blank" class="btn btn-accent btn-card">GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="modal2">
+            <div class="modal-header">
+                <h3>Moshified cloud-hosting</h3>
+                <button data-close-btn class="close-btn">&times;</button>
+            </div>
+            <picture>
+                <source type="image/webp" srcset="../images/designs/moshified/moshified_1400.webp">
+                <source type="image/png" srcset="../images/designs/moshified/moshified_1400.png">
+                <img class="project-img" src="../images/designs/moshified/moshified.png"
+                    alt="Mockup portfolio design for a private cloud hosting company">
+            </picture>
+        </div>
+        <!--Thembi logo-->
+        <div class="card logos">
+            <div class="card-img card3"></div>
+            <div class="card-body">
+                <div class="card-header">
+                    <span class="badge badge-primary">Logo</span>
+                </div>
+                <p><span class="project-name">Thembi.Dibotelo</span> - A logo for a freelance developer</p>
+            </div>
+        </div>
+        <!--Inter-->
+        <div class="card websites">
+            <div class="card-img">
+                <picture>
+                    <source type="image/webp"
+                        srcset="../images/designs/IMS/intern_1280.webp">
+                    <source type="image/png"
+                        srcset="../images/designs//IMS/intern_1280.png">
+                    <img class="project-img" src="../images/designs/IMS/intern.png"
+                        alt="Mockup design for an internship management system">
+                </picture>
+            </div>
+            <div class="card-body">
+                <div class="card-header">
+                    <span class="badge badge-primary">Website</span>
+                </div>
+                <p><span class="project-name">Intern Management system</span> - A website for managing intern programs</p>
+                <div class="card-links">
+                    <a href="https://github.com/GovanDBT/Internship-Website" target="_blank" class="btn btn-accent btn-card">GitHub</a>
+                </div>
+            </div>
+        </div>
+        <!--CO2-->
+        <div class="card apps">
+            <div class="card-img">
+                <picture>
+                    <source type="image/webp"
+                        srcset="../images/apps/co2/co2-app_300.webp 500w, ../images/apps/co2/co2-app_1400.webp 1400w"
+                        sizes="(min-width: 300px) 100vw">
+                    <source type="image/png"
+                        srcset="../images/apps/co2/co2-app_300.png 500w, ../images/apps/co2/co2-app_1400.png 1400w"
+                        sizes="(min-width: 300px) 100vw">
+                    <img class="project-img app-img" src="../images/apps/co2/co2-app.png"
+                        alt="App that could measure carbon emissions">
+                </picture>
+            </div>
+            <div class="card-body">
+                <div class="card-header">
+                    <span class="badge badge-primary">App</span>
+                </div>
+                <p><span class="project-name">CO2</span> - IBM 2023 hackathon app that can measure carbon emissions</p>
+                <div class="card-links">
+                    <a href="https://github.com/GovanDBT/CO2" target="_blank" class="btn btn-accent btn-card">GitHub</a>
+                </div>
+            </div>
+        </div>
+        <!-- Era Estate-->
+        <div class="card mockups">
+            <div class="card-img" data-modal-target="#modal3">
+                <picture>
+                    <source type="image/webp"
+                        srcset="../images/designs/era/era-adv_300.webp 300w, ../images/designs/era/era-adv_645.webp 768w, ../images/designs/era/era-adv_897.webp 1400w"
+                        sizes="(min-width: 300px) 100vw">
+                    <source type="image/png"
+                        srcset="../images/designs/era/era-adv_300.png 300w, ../images/designs/era/era-adv_645.png 768w, ../images/designs/era/era-adv_897.png 1400w"
+                        sizes="(min-width: 300px) 100vw">
+                    <img class="feature-image" src="../images/designs/era/era-adv.png" alt="Mockup design for a real estate company">
+                </picture>
+            </div>
+            <div class="card-body">
+                <div class="card-header">
+                    <span class="badge badge-primary">mockup</span>
+                </div>
+                <p><span class="project-name">ERA Real State</span> - A class mockup for a makeup real estate company</p>
+            </div>
+        </div> 
+        <div class="modal" id="modal3">
+            <div class="modal-header">
+                <h3>ERA mockup</h3>
+                <button data-close-btn class="close-btn">&times;</button>
+            </div>
+            <picture>
+                <source type="image/webp" srcset="../images/designs/era/era-index_1400.webp">
+                <source type="image/png" srcset="../images/designs/era/era-index_1400.webp">
+                <img class="project-img" src="../images/designs/era/era-index.png"
+                    alt="Mockup portfolio for a real estate company">
+            </picture>
+        </div>
+    </section>
+    <!--footer-->
+    <footer class="footer">
+        <p class="footer-copyright">Copyright &copy; Thembi Dibotelo&trade;</p>
+    </footer>
+    <div id="overlay"></div>
+    <!--JS links and paths-->
+    <script type="module" src="../js/modal.js"></script>
+    <script type="module" src="../js/main.js"></script>
+    <script src="../js/filter.js"></script>
+</body>
+
+</html>

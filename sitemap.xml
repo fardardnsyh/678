@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- created with sitemap-gen https://sitemap-gen.com/ -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://thembi-dibotelo.netlify.app/</loc>
+		<lastmod>2024-01-07T20:08:07.8947407+01:00</lastmod>
+	</url>
+	<url>
+		<loc>https://thembi-dibotelo.netlify.app/pages/resume</loc>
+		<lastmod>2024-01-07T20:08:07.8947407+01:00</lastmod>
+	</url>
+	<url>
+		<loc>https://thembi-dibotelo.netlify.app/pages/portfolio</loc>
+		<lastmod>2024-01-07T20:08:07.8947407+01:00</lastmod>
+	</url>
+	<url>
+		<loc>https://thembi-dibotelo.netlify.app/pages/contact</loc>
+		<lastmod>2024-01-07T20:08:07.8947407+01:00</lastmod>
+	</url>
+	<url>
+		<loc>https://thembi-dibotelo.netlify.app/files/html-course.pdf</loc>
+		<lastmod>2024-01-07T20:08:07.8947407+01:00</lastmod>
+	</url>
+	<url>
+		<loc>https://thembi-dibotelo.netlify.app/files/js-course.pdf</loc>
+		<lastmod>2024-01-07T20:08:07.8947407+01:00</lastmod>
+	</url>
+</urlset>
